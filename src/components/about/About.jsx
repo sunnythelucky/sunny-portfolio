@@ -36,11 +36,11 @@ const About = () => {
 						</article>
 					</div>
 					<p>
-						More than 4 years dedicated to projects in the areas of medical, construction, technology and professional
-						development. I had the privilege of composing and leading teams in systems integration, application
-						development, innovation and knowledge management projects. Total dedication to clients and projects, sharing
-						knowledge in face-to-face and distance learning. Currently, I develop, customize and optimize websites with
-						a focus on front-end, UX design, SEO and other digital marketing strategies.
+						Results-oriented software engineer with over 4 years of hands-on experience in the field, specializing in
+						mobile responsive web development. Skilled in leading teams, planning and monitoring projects, and
+						maintaining high-quality products. Proficient in a range of technologies, including React, TypeScript,
+						JavaScript, Node.js, GraphQL, Restful API, and AWS. Demonstrated ability to successfully manage independent
+						projects and collaborate effectively within a team setting.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Know more.
