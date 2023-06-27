@@ -3,12 +3,8 @@ import React from 'react'
 const CTA = () => {
   return (
     <div className="cta">
-        <a href="resume.pdf" className="btn" download='atavares.pdf'>
-            Curriculo 
-        </a>
-
-        <a href="https://blog.atavares.com" className="btn btn-primary" target="_blank" rel="noreferrer">
-          BLOG
+        <a href="resume.pdf" className="btn" download='sunny_park.pdf'>
+            Resume 
         </a>
     </div>
   )
