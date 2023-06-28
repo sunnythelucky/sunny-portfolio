@@ -14,7 +14,7 @@ const Contact = () => {
 		e.preventDefault();
 
 		emailjs.sendForm("service_k21tg8s", "template_8aq38hi", form.current, "5SzJoWUkRHKf1tpY1");
-		setMsg("Mensagem Enviada! Obrigado.");
+		setMsg("Message Sent! Thank you.");
 		e.target.reset();
 		// .then((result) => {
 		//     console.log(result.text);
