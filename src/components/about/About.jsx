@@ -26,7 +26,7 @@ const About = () => {
 						</article>
 						<article className="about__card">
 							<GoOrganization className="about__icon" />
-							<h5>Clientes</h5>
+							<h5>Clients</h5>
 							<small>Support and consultancy</small>
 						</article>
 						<article className="about__card">
