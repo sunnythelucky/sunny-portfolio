@@ -19,19 +19,19 @@ const Services = () => {
 						</li>
 						<li>
 							<BsFillCheckCircleFill className="service__list-icon" />
-							<p>React | Angular | Redux</p>
+							<p>React | TypeScript | Node.js | RESTful APIs</p>
 						</li>
 						<li>
 							<BsFillCheckCircleFill className="service__list-icon" />
-							<p>Corporate E-mail</p>
+							<p>Building Website</p>
 						</li>
 						<li>
 							<BsFillCheckCircleFill className="service__list-icon" />
-							<p>Migrations (no ranking loss)</p>
+							<p>Migrations</p>
 						</li>
 						<li>
 							<BsFillCheckCircleFill className="service__list-icon" />
-							<p>Automations, Optimizations and Performance</p>
+							<p>Automation, Optimizations and Performance</p>
 						</li>
 						<li>
 							<BsFillCheckCircleFill className="service__list-icon" />

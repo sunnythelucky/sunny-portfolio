@@ -11,36 +11,17 @@ const Experience = () => {
 				<div className="experience__title-ti">
 					<h3>Tech Skills</h3>
 					<div className="experience__content">
-						<article className="experience__details" title="Web Semântica, XML, Web Standards">
+						<article className="experience__details">
 							<div>
 								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>HTML5</h5>
-							</div>
-							<progress value="90" max="100">
-								90%
-							</progress>
-						</article>
-						<article
-							className="experience__details"
-							title="Bootstrap, Tailwind, SASS, Foundation, Frameworks e Metodologias"
-						>
-							<div>
-								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>CSS</h5>
-							</div>
-							<progress value="90" max="100"></progress>
-						</article>
-						<article className="experience__details" title="DOM, APIs, JSON">
-							<div>
-								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5 title="Vanilla, ES5, ES6, Jquery">JavaScript</h5>
+								<h5>React, Redux</h5>
 							</div>
 							<progress value="90" max="100"></progress>
 						</article>
 						<article className="experience__details">
 							<div>
 								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>React</h5>
+								<h5 title="Vanilla, ES5, ES6, Jquery">JavaScript, TypeScript</h5>
 							</div>
 							<progress value="90" max="100"></progress>
 						</article>
@@ -50,28 +31,43 @@ const Experience = () => {
 						>
 							<div>
 								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>Node.js</h5>
+								<h5>Node.js, Express</h5>
 							</div>
 							<progress value="90" max="100"></progress>
 						</article>
+						<article className="experience__details">
+							<div>
+								<BsFillCheckCircleFill className="experience__details-icon" />
+								<h5>HTML5, CSS</h5>
+							</div>
+							<progress value="90" max="100"></progress>
+						</article>
+						<article className="experience__details" title="Bootstrap, Tailwind, SASS, Frameworks and Methods">
+							<div>
+								<BsFillCheckCircleFill className="experience__details-icon" />
+								<h5>RESTful APIs</h5>
+							</div>
+							<progress value="90" max="100"></progress>
+						</article>
+
 						<article className="experience__details" title="Node.js">
 							<div>
 								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>AWS</h5>
+								<h5>GraphQL</h5>
 							</div>
-							<progress value="70" max="100"></progress>
+							<progress value="80" max="100"></progress>
 						</article>
 						<article className="experience__details">
 							<div>
 								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>Angular, View.js</h5>
+								<h5>Frontend Javascript Frameworks - Next.js, Angular.js </h5>
 							</div>
-							<progress value="50" max="100"></progress>
+							<progress value="80" max="100"></progress>
 						</article>
 						<article className="experience__details">
 							<div>
 								<BsFillCheckCircleFill className="experience__details-icon" />
-								<h5>Jest, Mocha</h5>
+								<h5>Testing Libraries - Jest, Cypress</h5>
 							</div>
 							<progress value="90" max="100"></progress>
 						</article>
