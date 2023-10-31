@@ -13,34 +13,28 @@ import "swiper/css/navigation";
 const testimonialData = [
 	{
 		avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-		name: "Ester Okamoto",
+		name: "Ester Okamoto - Co-worker",
 		review:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maiores, ducimus vero quam sed quas ullam adipisci excepturi optio in?",
+			"Sunhui and I worked together on several projects, and I was lucky to call her my coworker. She consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed assignments on time. She had excellent time management skills and had a knack for keeping everyone calm and productive during intense crunch periods. She is a talented front-end developer with great experience in AWS .Any team would be lucky to have Sunhui. ",
 	},
 	{
 		avatar: "https://randomuser.me/api/portraits/men/15.jpg",
-		name: "Maurício costa",
+		name: "Maurício costa - Manager",
 		review:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maiores, ducimus vero quam sed quas ullam adipisci excepturi optio in?",
+			"Sunhui is an awesome and highly talented developer. I consider myself fortunate to have been able to work with Sunhui over the past year at Secret Location. She is a professional and dedicated programmer with a great work ethic and always gave 100% to our team. I would completely recommend Sunhui to anybody looking for an excellent Front-End developer!",
 	},
 	{
 		avatar: "https://randomuser.me/api/portraits/lego/1.jpg",
-		name: "Brandon Wilker",
+		name: "Brandon Wilker - Co-worker",
 		review:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maiores, ducimus vero quam sed quas ullam adipisci excepturi optio in?",
-	},
-	{
-		avatar: "https://randomuser.me/api/portraits/women/61.jpg",
-		name: "Fátima Lunes",
-		review:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maiores, ducimus vero quam sed quas ullam adipisci excepturi optio in?",
+			"Sunhui is a very passionate and loves what she does. Seeing her motivated while we were working together also encouraged me to be like her. In my view, for her work means more than how others usually think about it. I am glad to have an opportunity to work with her. Hope she works on even more fantastic projects with future co-workers!",
 	},
 ];
 
 const Testimonials = () => {
 	return (
 		<section id="testimonials">
-			<h5 className="text-light">customer reviews</h5>
+			<h5 className="text-light">Co-worker Reviews</h5>
 			<h2 className="text-light">Reviews</h2>
 			<Swiper
 				className="container testimonials__container"
