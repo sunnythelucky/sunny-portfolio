@@ -2,7 +2,7 @@ import React from "react";
 import "./testimonials.css";
 
 // import Swiper core and required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, EffectCoverflow } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -37,11 +37,22 @@ const Testimonials = () => {
 			<h5 className="text-light">Co-worker Reviews</h5>
 			<h2 className="text-light">Reviews</h2>
 			<Swiper
+				style={{ overflow: "visible" }}
+				effect={"coverflow"}
+				grabCursor={true}
+				centeredSlides={true}
 				className="container testimonials__container"
-				modules={[Pagination, Navigation]}
+				modules={[EffectCoverflow, Pagination, Navigation]}
 				spaceBetween={40}
-				slidesPerView={1}
+				slidesPerView={"auto"}
 				pagination={{ clickable: true }}
+				coverflowEffect={{
+					rotate: 50,
+					stretch: 0,
+					depth: 100,
+					modifier: 1,
+					slideShadows: true,
+				}}
 			>
 				{testimonialData.map(({ avatar, name, review }, idex) => {
 					return (

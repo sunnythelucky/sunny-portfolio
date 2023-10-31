@@ -59,7 +59,7 @@ const Experience = () => {
 						</article>
 						<article className="experience__details">
 							<div>
-								<BsFillCheckCircleFill className="experience__details-icon" />
+								<BsFillCheckCircleFill className="experience__details-icon" style={{ width: "2rem" }} />
 								<h5>Frontend Javascript Frameworks - Next.js, Angular.js </h5>
 							</div>
 							<progress value="80" max="100"></progress>
