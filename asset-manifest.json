@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sunny-portfolio/static/css/main.463335f7.css",
-    "main.js": "/sunny-portfolio/static/js/main.5f3ed7d6.js",
+    "main.js": "/sunny-portfolio/static/js/main.faf56649.js",
     "static/media/sunny-park.png": "/sunny-portfolio/static/media/sunny-park.96a9b1fe6738597d1fce.png",
     "static/media/me.png": "/sunny-portfolio/static/media/me.3bf3c9732c6e7260665e.png",
     "index.html": "/sunny-portfolio/index.html",
     "main.463335f7.css.map": "/sunny-portfolio/static/css/main.463335f7.css.map",
-    "main.5f3ed7d6.js.map": "/sunny-portfolio/static/js/main.5f3ed7d6.js.map"
+    "main.faf56649.js.map": "/sunny-portfolio/static/js/main.faf56649.js.map"
   },
   "entrypoints": [
     "static/css/main.463335f7.css",
-    "static/js/main.5f3ed7d6.js"
+    "static/js/main.faf56649.js"
   ]
 }
